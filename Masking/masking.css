@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    color: transparent;
+    text-align: center;
+    background-image: url(img_forest.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    border-radius: 8px;
+}
+div>h2{
+    font-size: 100px;
+}
+div>p{
+    font-size: 50px;
+}
